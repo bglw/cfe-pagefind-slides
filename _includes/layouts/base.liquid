@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} | Pagefind CFE Slides</title>
+    <meta name="generator" content="{{ eleventy.generator }}">
+
+    <link rel="stylesheet" href="{{ '/css/water.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/misc.css' | url }}">
+    <link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <div id="search"></div>
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+            new PagefindUI({ element: "#search" });
+        });
+    </script>
+
+    <footer>
+        <span>
+            <a href="https://pagefind.app" target="_blank">Documentation</a> •
+            <a href="https://github.com/cloudcannon/pagefind" target="_blank">Repository</a> •
+            <a href="https://xkcd.pagefind.app" target="_blank">Example</a>
+        </span>
+        <img src="/img/wordmark.png" alt="The logo for Pagefind">
+    </footer>
+    <script src="/_pagefind/pagefind-ui.js" type="text/javascript"></script>
+  </body>
+</html>

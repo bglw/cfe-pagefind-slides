@@ -1,0 +1,25 @@
+html {
+    font-size: 25px;
+}
+
+h1+img,
+p+img {
+    margin: 50px 0;
+}
+
+li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 15px;
+}
+
+footer img {
+    height: 20px;
+}
