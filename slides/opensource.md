@@ -1,5 +1,5 @@
 ---
-title: Open Source Tooling
+title: 2. Open Source Tooling
 layout: layouts/slide.liquid
 ---
 

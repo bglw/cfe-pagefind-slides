@@ -1,5 +1,5 @@
 ---
-title: About Me / About CloudCannon
+title: 1. About Me / About CloudCannon
 layout: layouts/slide.liquid
 ---
 

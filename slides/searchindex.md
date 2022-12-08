@@ -1,5 +1,5 @@
 ---
-title: Search Indexes
+title: 3. Search Indexes
 layout: layouts/slide.liquid
 ---
 
